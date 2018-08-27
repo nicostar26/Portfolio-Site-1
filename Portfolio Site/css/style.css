@@ -1,0 +1,131 @@
+body{
+	
+	padding: 0px;
+	margin: 0px;
+	font-family: Times New Roman;
+	font-size: 16px;
+}
+
+header {
+	background: url('../img/redbackground.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 850px;
+}
+
+.container{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+#bodypic img{
+	height: 350px;
+	padding-left: 20px;
+}
+
+.aboutme{
+	float: left;
+	width: 50%;
+	margin-top: 20px;
+	padding: 0;
+}
+
+
+#about h3{
+	color: maroon;
+}
+
+#header nav{
+	background-color: maroon;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#header ul{
+	list-style-type: none;
+
+}
+
+#header li{
+	display: inline;
+	padding-right: 15px;
+}
+
+#header a{
+	text-decoration: none;
+	color: white;
+}
+
+#header p{
+	color: white;
+	font-size: 32px;
+	text-align: center;
+	margin-top: 280px;
+	font-weight: bold;
+}
+
+#boxes{
+	margin-top: 50px;
+}
+
+.box h3{
+	color: maroon;
+	font-weight: bold;
+}
+
+.box h4{
+	color: maroon;
+}
+
+
+#boxes img{
+	height: 75px;
+	width: 75px;
+	padding: 10px;
+}
+
+#boxes{
+	margin-bottom: 75px;
+}
+
+#recentwork img{
+	height: 200px;
+	padding: 10px;
+}
+
+#recentwork .work{
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+#recentwork h3{
+	color: maroon;
+}
+
+footer{
+	background-color: maroon;
+	height: 150px;
+	color: white;
+}
+
+.footer{
+	float: left;
+	width: 50%;
+}
+
+.footer h4{
+	margin-top: 50px;
+}
+
+.footer p{
+	text-align: right;
+}
+
+.footer h3{
+	text-align: right;
+}
